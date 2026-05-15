@@ -5,7 +5,7 @@ def main():
     while True:
         try:
             num_students = int(input("Enter the number of students: "))
-            if num_students >= 0:
+            if num_students > 0:
                 break
             print("Please enter a positive number.")
         except ValueError:
